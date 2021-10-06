@@ -8,7 +8,8 @@ namespace Practice
         {
             Console.WriteLine("Hello!");
             Gambling gambling = new Gambling();
-            gambling.Machine();
+            gambling.Bet();
+            gambling.LoseWin();
         }
     }
 }
